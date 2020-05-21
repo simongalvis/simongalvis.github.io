@@ -5,7 +5,7 @@ box-sizing: border-box;
 
 html, body{
   scroll-behavior:smooth;
-  overflow: scroll;
+  overflow-x: scroll;
   width: 100%;
 }
 body{
