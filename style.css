@@ -3,7 +3,7 @@ box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Righteous&display=swap');
 
-html, body{
+html{
   scroll-behavior:smooth;
   overflow: scroll;
   width: 100%;
