@@ -113,7 +113,6 @@ iframe{
 }
 .center{
   text-align:center;
-
 }
 .left-align{
   text-align: left;
@@ -130,7 +129,6 @@ margin-bottom:3%;
 .item-double{
 flex:2;
 margin:17px;
-background-color:hsla(0, 0%, 0%, .2);
 }
 item-triple{
   flex:3;
@@ -164,17 +162,10 @@ flex-pic{
 img .item{
   opacity:.5;
 }
- 
-
-
-
 .large-icon-link{
   width:57px;
   text-decoration:underline;
-  
 }
-
-
 a:link{color: #fff;}
 a:visited{color:#b5e3fd;}
 a:hover{color:#c7d5fa;}
