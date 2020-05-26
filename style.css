@@ -6,13 +6,16 @@ box-sizing: border-box;
 html{
   scroll-behavior:smooth;
   overflow: scroll;
-  overflow-x:hidden;
+  overflow-x: hidden;
   width: 100%;
 }
 body{
   background-image: url("images/ocean.jpg");
-  background-attachment:fixed;
-  overflow: hidden;
+  background-color: black;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  overflow:hidden;
 }
 body{
  font-family: 'Inter', sans-serif;
@@ -24,20 +27,25 @@ main{
 section{
   overflow:auto;
   scroll-behavior:smooth;
+  margin-bottom:0%;
 }
 header{
   background-color: darkgray;
-  background-image: url("images/miami-wallpaper.jpg");
+  background-image: url("images/downtown-miami.jpg");
   background-attachment:fixed;
-  background-position:center 300%;
+  background-position: center 100%;
   width:100%;
   height:380px;
 }
 h2{
   font-size: 37px;
+  margin-top:0;
+  margin-bottom: 12px;
+  padding-top:5%;
   }
 h3{
-  margin: 7%;
+  margin: 4%;
+  text-decoration:underline;
 }
 header h1{
   font-family: 'Inter', sans-serif;
@@ -58,8 +66,10 @@ header h2{
 nav{
   float: right;  
   margin:3% 2% 0 3% ;
-  border: 2px white solid;
+  background-color: hsl(0,0%,0%,.2);
+  border: 2px black solid;
   padding:7px;
+  color:black;
 }
 a{
   color:aliceblue;
@@ -77,49 +87,123 @@ ol > li{
 hr{
   margin:28px;
 }
+article{
+  border-color:white;
+  border-top: solid white 3px;
+  border-bottom: solid white 3px;
+}
 footer{
-  margin-bottom:7px;
+  margin-bottom:7%;
+  margin-top: 7%;
+  text-align: center;
+}
+img{
+  width:100%;
+  height:auto;
+  border-radius: 3%;
+}
+iframe{
+  border-radius:2%;
+  margin:51px 21px;
+  width: 90%;
+  border:4px solid black;
 }
 .wrapper{
-  margin:3% auto;
-  width:960px;
+  margin:3% auto 0 auto;
+  width:100%;
 }
 .center{
   text-align:center;
-  list-style-position: inside;
-}
-.portrait-headshot{
-  border: 3px solid black;
-  float: left;
-  block-size: 700px;
-  width: auto;
-}
-.about-me-pic{
-  border: 3px solid black;
-  float: right;
-  block-size: 700px;
-  width: auto;
-}
-.text-section{
 
-  border: 3px solid lightgray;
-  float: right;
-  block-size: 70%;
-  padding: 5%;
-  width: 40%;
-} 
-.about-me {
-  border: 3px solid lightgray;
-  float: left;
-  block-size: 50%;
-  padding: 5%;
-  width: 40%;
 }
+.left-align{
+  text-align: left;
+}
+.group{
+  display:flex;
+  flex-direction: column;
+}
+.item{
+flex:1;
+margin: 17px;
+margin-bottom:3%;
+}
+.item-double{
+flex:2;
+margin:17px;
+background-color:hsla(0, 0%, 0%, .2);
+}
+item-triple{
+  flex:3;
+}
+flex-pic{
+  flex:1;
+}
+.ocean-background{
+  background-image: url("images/ocean-pic-mobile.jpg")  ;
+  background-color: #0196a8;
+  background-attachment:scroll;
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+.layer{
+  background-color:hsla(0, 0%, 0%, .2);
+  margin:0;
+
+  width: 100%;
+  height: 100%;
+}
+.ocean-background-project{
+  background-color: black;
+  background-attachment:scroll;
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  text-align: center;
+}
+img .item{
+  opacity:.5;
+}
+ 
+
+
+
 .large-icon-link{
   width:57px;
+  text-decoration:underline;
+  
 }
+
+
 a:link{color: #fff;}
 a:visited{color:#b5e3fd;}
 a:hover{color:#c7d5fa;}
 a:active{color:#0000ff;}
+@media all and (min-width:800px){
+.wrapper{
+  width:80%
+}
+.group{
+  flex-direction:row;
+}
+article{
+  font-size: 21px;
+}
+.ocean-background{
+  background-image: url("images/ocean-pic-alt.jpg");
+  background-color: hsl(186, 99%, 33%);
+  background-attachment: fixed;
+  background-size:cover;
+  background-repeat:no-repeat;
+  text-align: center;
+}
+iframe{
+  border-radius:2%;
+  margin:51px 21px;
+  width: 90%;
+  border:0px solid black;
+}
+}
+
 
