@@ -52,7 +52,7 @@ header h1{
   text-align: center;
   padding-top: 133px;
   color:rgb(247, 247, 247);
-  font-size: 77px;
+  font-size: 57px;
   text-shadow: 0px 0px 1px;
 }
 header h2{
@@ -60,7 +60,7 @@ header h2{
  text-align:center;
  color:rgb(255, 255, 255);
  text-shadow: 0px 0px 1px;
- font-size:22px;
+ font-size:21px;
 }
 nav{
   float: right;  
@@ -171,6 +171,12 @@ a:visited{color:#b5e3fd;}
 a:hover{color:#c7d5fa;}
 a:active{color:#0000ff;}
 @media all and (min-width:800px){
+ header h1{
+  font-size:77px;
+  }
+ header h2{
+  font-size:27px;
+  }
 .wrapper{
   width:80%
 }
