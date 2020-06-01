@@ -124,15 +124,17 @@ form label{
   margin-top:10px;
 }
 form input, form textarea{
-  background-color: hsla(0, 0%, 0%, .2);
+  background-color: hsl(0,0%,0%,.2);
   width:100%;
   margin-top:5px;
   color:white;
   border-radius: 25px;
   padding: 14px;
+  border: 2px solid gray;
 }
 form textarea{
   height:77px;
+  border: 1px solid gray;
 }
 form button{
   width:auto;
