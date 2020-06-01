@@ -10,7 +10,6 @@ html{
   width: 100%;
 }
 body{
-  background-image: url("images/ocean.jpg");
   background-color: black;
   background-repeat:no-repeat;
   background-size:cover;
