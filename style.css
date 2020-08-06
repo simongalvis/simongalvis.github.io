@@ -1,0 +1,280 @@
+  
+*{
+box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Righteous&display=swap');
+
+html{
+  scroll-behavior:smooth;
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 100%;
+}
+body{
+  background-color: black;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  overflow:hidden;
+}
+body{
+ font-family: 'Inter', sans-serif;
+ color: white;
+}
+main{
+  overflow:auto;
+}
+section{
+  overflow:auto;
+  scroll-behavior:smooth;
+  margin-bottom:0%;
+}
+header{
+  background-color: darkgray;
+  background-image: url("images/downtown-miami.jpg");
+  background-attachment:fixed;
+  background-position: center 100%;
+  width:100%;
+  height:100%;
+}
+h2{
+  font-size: 37px;
+  margin-top:0;
+  margin-bottom: 12px;
+  padding-top:5%;
+  }
+h3{
+  margin: 4%;
+  text-decoration:underline;
+}
+header h1{
+  font-family: 'Inter', sans-serif;
+  margin:0;
+  text-align: center;
+  padding-top: 133px;
+  color:rgb(247, 247, 247);
+  font-size: 57px;
+  text-shadow: 0px 0px 1px;
+}
+header h2{
+ padding-top:147px;
+ padding-bottom:3px;
+ text-align:center;
+ color:rgb(255, 255, 255);
+ text-shadow: 0px 0px 1px;
+ font-size:16px;
+ display:flex;
+ justify-content: center;
+ align-items:flex-end;
+ margin:0;
+}
+nav{
+  float: right;  
+  margin:3% 2% 0 3% ;
+  background-color: hsl(0,0%,0%,.2);
+  border: 2px black solid;
+  padding:7px;
+  color:black;
+}
+a{
+  color:aliceblue;
+}
+article{
+  font-size:17px;
+}
+li{
+  margin: 14px auto;
+}
+ol > li{
+  font-weight: bolder;
+  font-size: 50px;
+}
+hr{
+  margin:28px;
+}
+article{
+  border-color:white;
+  border-top: solid white 3px;
+  border-bottom: solid white 3px;
+}
+footer{
+  margin-bottom:7%;
+  margin-top: 7%;
+  text-align: center;
+}
+img{
+  width:100%;
+  height:auto;
+  border-radius: 3%;
+}
+fieldset{
+  width:90%;
+  margin:63px 5%;
+  justify-content: center;
+  
+  border: white solid 1px;
+}
+legend{
+  font-size:28px;
+}
+iframe{
+  justify-content:center;
+  margin:63px 5%;
+  width: 90%;
+  border:2px solid gray;
+  
+}
+form{
+  display:block;
+  justify-content: center;
+  overflow:hidden;
+}
+form label{
+  display:block;
+  margin-top:10px;
+}
+form input, form textarea{
+  background-color: hsl(0,0%,0%,.2);
+  width:100%;
+  margin-top:5px;
+  color:white;
+  border-radius: 25px;
+  padding: 14px;
+  border: 2px solid gray;
+}
+form textarea{
+  height:77px;
+  border: 1px solid gray;
+}
+form button{
+  width:auto;
+  margin-top:10px;
+  opacity:100;
+  block-size:33px;
+ 
+ 
+}
+.wrapper{
+  margin:3% auto 0 auto;
+  width:100%;
+}
+.center{
+  text-align:center;
+}
+.left-align{
+  text-align: left;
+}
+.group{
+  display:flex;
+  flex-direction: column;
+}
+.item{
+flex:1;
+margin: 17px;
+margin-bottom:3%;
+}
+.item-double{
+flex:2;
+margin:17px;
+background-color:hsla(0, 0%, 0%, .2);
+}
+item-triple{
+  flex:3;
+}
+flex-pic{
+  flex:1;
+}
+.ocean-background{
+  background-image: url("images/ocean-pic-mobile.jpg")  ;
+  background-color: #0196a8;
+  background-attachment:scroll;
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  color: white;
+}
+.layer{
+  background-color:hsla(0, 0%, 0%, .2);
+  margin:0;
+  overflow:auto;
+  width: auto;
+  height: auto;
+}
+.darkerlayer{
+  background-color:hsla(0, 0%, 0%, .3);
+  margin:0;
+  overflow:auto;
+  width: auto;
+  height: auto;
+}
+.ocean-background-project{
+  background-color: black;
+  background-attachment:scroll;
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  text-align: center;
+}
+img .item{
+  opacity:.5;
+}
+.large-icon-link{
+  width:57px;
+  text-decoration:underline;
+}
+a:link{color: #fff;}
+a:visited{color:#b5e3fd;}
+a:hover{color:#c7d5fa;}
+a:active{color:#0000ff;}
+
+::placeholder{
+  color:lightgray;
+}
+
+
+
+@media all and (min-width:800px){
+  header h1{
+  font-size:77px;
+  }
+  header h2{
+  font-size:27px;
+  padding-bottom:3px;
+  } 
+.wrapper{
+  width:80%
+}
+.group{
+  flex-direction:row;
+}
+article{
+  font-size: 21px;
+}
+.ocean-background{
+  background-image: url("images/ocean-pic-alt.jpg");
+  background-color: hsl(186, 99%, 33%);
+  background-attachment: fixed;
+  background-size:cover;
+  background-repeat:no-repeat;
+  text-align: center;
+}
+iframe{
+  border-radius:2%;
+  margin:51px 21px;
+  width: 90%;
+  border:0px solid black;
+  display: block;
+}
+.darkerlayer{
+  background-color:hsla(0, 0%, 0%, .3);
+  margin:0;
+  overflow:auto;
+  width: auto;
+  height: auto;
+}
+.semibold{
+  color:white;
+ text-shadow: 1px 1px #000;
+}
+}
+
+
