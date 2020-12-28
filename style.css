@@ -234,7 +234,15 @@ a:active{color:#0000ff;}
 ::placeholder{
   color:lightgray;
 }
-
+#contact-form-submit-btn{
+  border-radius: 22px;
+  color:white;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: #41b6fa;
+  width: 84px;
+  height: 42px;
+}
 
 
 @media all and (min-width:800px){
