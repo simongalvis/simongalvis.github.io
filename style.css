@@ -187,12 +187,15 @@ flex-pic{
   flex:1;
 }
 .ocean-background{
-  background-image: url("images/ocean-pic-mobile.jpg")  ;
+  background-image: url("images/rocky-mountain-lake-background.jpg")  ;
   background-color: #0196a8;
-  background-attachment:scroll;
-  background-repeat:no-repeat;
-  background-size: 100% 100%;
-  color: white;
+  background-attachment:fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width:100%;
+  height:100%;
 }
 .layer{
   background-color:hsla(0, 0%, 0%, .2);
@@ -252,11 +255,12 @@ article{
   font-size: 21px;
 }
 .ocean-background{
-  background-image: url("images/ocean-pic-alt.jpg");
+  background-image: url("images/rocky-mountain-lake-background.jpg");
   background-color: hsl(186, 99%, 33%);
   background-attachment: fixed;
   background-size:cover;
   background-repeat:no-repeat;
+  position: relative;
   text-align: center;
 }
 iframe{
