@@ -31,9 +31,11 @@ section{
 }
 header{
   background-color: darkgray;
-  background-image: url("images/downtown-miami.jpg");
-  background-attachment:fixed;
-  background-position: center 100%;
+  background-image: url("images/denver-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   width:100%;
   height:100%;
 }
