@@ -186,7 +186,7 @@ item-triple{
 flex-pic{
   flex:1;
 }
-.ocean-background{
+.bg-image-section{
   background-image: url("images/rocky-mountain-lake-background.jpg")  ;
   background-color: #0196a8;
   background-attachment:fixed;
@@ -254,7 +254,7 @@ a:active{color:#0000ff;}
 article{
   font-size: 21px;
 }
-.ocean-background{
+.bg-image-section{
   background-image: url("images/rocky-mountain-lake-background.jpg");
   background-color: hsl(186, 99%, 33%);
   background-attachment: fixed;
