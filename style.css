@@ -113,7 +113,6 @@ fieldset{
   width:90%;
   margin:63px 5%;
   justify-content: center;
-  
   border: white solid 1px;
 }
 legend{
@@ -123,8 +122,7 @@ iframe{
   justify-content:center;
   margin:63px 5%;
   width: 90%;
-  border:2px solid gray;
-  
+  border:2px solid gray; 
 }
 form{
   display:block;
@@ -153,8 +151,9 @@ form button{
   margin-top:10px;
   opacity:100;
   block-size:33px;
- 
- 
+}
+.media-icons{
+  display: flex;
 }
 .wrapper{
   margin:3% auto 0 auto;
@@ -210,14 +209,6 @@ flex-pic{
   overflow:auto;
   width: auto;
   height: auto;
-}
-.ocean-background-project{
-  background-color: black;
-  background-attachment:scroll;
-  background-repeat:no-repeat;
-  background-size: 100% 100%;
-  color: white;
-  text-align: center;
 }
 img .item{
   opacity:.5;
